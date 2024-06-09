@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientGoGame", "ClientGoGame\ClientGoGame.csproj", "{22E4230B-2CBB-49EA-B388-F9DEC8D5F1C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerGoGame", "ServerGoGame\ServerGoGame.csproj", "{0DF09F1D-7CED-4FA1-B063-F9F625CBDAE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22E4230B-2CBB-49EA-B388-F9DEC8D5F1C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E4230B-2CBB-49EA-B388-F9DEC8D5F1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E4230B-2CBB-49EA-B388-F9DEC8D5F1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E4230B-2CBB-49EA-B388-F9DEC8D5F1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF09F1D-7CED-4FA1-B063-F9F625CBDAE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF09F1D-7CED-4FA1-B063-F9F625CBDAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF09F1D-7CED-4FA1-B063-F9F625CBDAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF09F1D-7CED-4FA1-B063-F9F625CBDAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0BDD8FC-D83A-47D3-8DF1-CE3E17D2BA54}
+	EndGlobalSection
+EndGlobal
