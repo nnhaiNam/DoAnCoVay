@@ -334,6 +334,8 @@ namespace ServerGoGame
                             service.SentToBoth(gameTables[tableIndex],sendString);
                             gameTables[tableIndex].gamePlayer[side].isplayagain=false;
                             gameTables[tableIndex].gamePlayer[anotherSide].isplayagain = false;
+                            gameTables[tableIndex].gamePlayer[side].isplaying = true;
+                            gameTables[tableIndex].gamePlayer[anotherSide].isplaying = true;
                         }
                         else
                         {
