@@ -332,6 +332,8 @@ namespace ServerGoGame
                         {
                             sendString = "PlayAgainComplete";
                             service.SentToBoth(gameTables[tableIndex],sendString);
+                            gameTables[tableIndex].gamePlayer[side].isplayagain=false;
+                            gameTables[tableIndex].gamePlayer[anotherSide].isplayagain = false;
                         }
                         else
                         {
